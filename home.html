@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span>Menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link active" href="home.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portofolio.html">Portofolio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Tutorial
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">HTML</a>
+                <a class="dropdown-item" href="#">CSS</a>
+                <a class="dropdown-item" href="#">Javascript</a>
+                <a class="dropdown-item" href="#">Bootstrap</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<body>
+    <div class ="bg" id="image">
+        <img src="https://danielapps.co/wp-content/uploads/2022/04/back-end-development-orlando-1024x576.jpg" class="img-center" alt="fend">
+        <div class="card text-center">
+          <div class="card-header" style="background-color: #56382d; color: #f8f3eb;">
+            Featured
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">What Does a Front-End Developer Do?</h5>
+            <p class="card-text">Front-end developers create user interfaces (UI). UI is the graphical layout of an application that determines what each part of a site or application does and how it will look
+              The front-end developer determines where to place images, what the navigation should look like, and how to present the site. Much of their work involves ensuring the appearance and layout of the site or application is easy to navigate and intuitive for the user. </p>
+  
+              <a href="#" class="button1"> Learn More...</a>
+          </div>
+          <div class="card-footer" style="background-color: #56382d; color: #f8f3eb;">
+          </div>
+        </div>
+    </div>
+
+    <div class="d-flex bd-highlight mb-6 bg">
+      <div class="card p-4 bd-highlight content" style="width: 18rem;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" class="card-img-top" alt="html">
+        <div class="card-body">
+          <h5 class="card-title">HTML Tutorial</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, aliquid, quaerat deleniti perspiciatis quo accusamus error veritatis itaque quam nostrum ipsa illo id harum totam reiciendis iusto non, vel atque?</p>
+          <a href="#" class="button1">Get Started</a>
+        </div>
+      </div>
+      <div class="card p-4 bd-highlight content" style="width: 18rem;">
+        <img src="data:image/png;base64,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" class="card-img-top" alt="css">
+        <div class="card-body">
+          <h5 class="card-title">CSS Tutorial</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, aliquid, quaerat deleniti perspiciatis quo accusamus error veritatis itaque quam nostrum ipsa illo id harum totam reiciendis iusto non, vel atque?</p>
+          <a href="#" class="button1">Get Started</a>
+        </div>
+      </div>
+      <div class="card p-4 bd-highlight content" style="width: 18rem;">
+        <img src="https://i0.wp.com/theicom.org/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1&w=640" class="card-img-top" alt="css">
+        <div class="card-body">
+          <h5 class="card-title">Javascript Tutorial</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, aliquid, quaerat deleniti perspiciatis quo accusamus error veritatis itaque quam nostrum ipsa illo id harum totam reiciendis iusto non, vel atque?</p>
+          <a href="#" class="button1">Get Started</a>
+        </div>
+      </div>
+      <div class="card p-4 bd-highlight content" style="width: 18rem;">
+        <img src="https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png" class="card-img-top" alt="css">
+        <div class="card-body">
+          <h5 class="card-title">Bootstrap Tutorial</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, aliquid, quaerat deleniti perspiciatis quo accusamus error veritatis itaque quam nostrum ipsa illo id harum totam reiciendis iusto non, vel atque?</p>
+          <a href="#" class="button1">Get Started</a>
+        </div>
+  </div>
+</div>
+</body>
+
+
+<footer class="footer mt-auto py-3">
+  <div class="container">
+    <span>Copyright @ 2023 Zahra Rizqia Aswin - WDP 008</span>
+  </div>
+  <script src="script.js"></script>
+</footer>
+
+</html>
